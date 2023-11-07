@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Oct 23 08:25:17 2023
+# Process ID: 6496
+# Current directory: C:/Users/Neta/Desktop/pro/UART_TOP
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12352 C:\Users\Neta\Desktop\pro\UART_TOP\UART_TOP.xpr
+# Log file: C:/Users/Neta/Desktop/pro/UART_TOP/vivado.log
+# Journal file: C:/Users/Neta/Desktop/pro/UART_TOP\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Neta/Desktop/pro/UART_TOP/UART_TOP.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/Neta/Desktop/pro/UART_TOP/UART_TOP.srcs/sim_1/imports/Desktop/pro/UART_TOP/test_top_behav.wcfg
+source test_top.tcl
+run 60 s
+close_sim

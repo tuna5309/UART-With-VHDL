@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Neta/Desktop/pro/UART_TOP/UART_TOP.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1989099fs"></ZoomStartTime>
+      <ZoomEndTime time="9299100fs"></ZoomEndTime>
+      <Cursor1Time time="6336000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="180"></NameColumnWidth>
+      <ValueColumnWidth column_width="229"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wave_markers>
+      <marker time="222000" label="" />
+   </wave_markers>
+   <wvobject fp_name="uart_rx_port/clk_count" type="array">
+      <obj_property name="ElementShortName">uart_rx_port/clk_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_count[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uart_rx_port/uart_state" type="array">
+      <obj_property name="ElementShortName">uart_rx_port/uart_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_state[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uart_tx_port/clk_count" type="array">
+      <obj_property name="ElementShortName">uart_tx_port/clk_count[15:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_count[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uart_rx_port/rx_data" type="array">
+      <obj_property name="ElementShortName">uart_rx_port/rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uart_rx_port/cnt" type="array">
+      <obj_property name="ElementShortName">uart_rx_port/cnt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uart_rx_port/uart_state__0" type="array">
+      <obj_property name="ElementShortName">uart_rx_port/uart_state__0[1:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_state__0[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uart_tx_port/uart_state" type="array">
+      <obj_property name="ElementShortName">uart_tx_port/uart_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_state[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uart_tx_port/uart_state__0" type="array">
+      <obj_property name="ElementShortName">uart_tx_port/uart_state__0[1:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_state__0[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="LABELRADIX">false</obj_property>
+   </wvobject>
+   <wvobject fp_name="o_rx_en" type="logic">
+      <obj_property name="ElementShortName">o_rx_en</obj_property>
+      <obj_property name="ObjectShortName">o_rx_en</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="o_tx_done" type="logic">
+      <obj_property name="ElementShortName">o_tx_done</obj_property>
+      <obj_property name="ObjectShortName">o_tx_done</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uart_rx_port/rx_2" type="logic">
+      <obj_property name="ElementShortName">uart_rx_port/rx_2</obj_property>
+      <obj_property name="ObjectShortName">rx_2</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TX_out" type="logic">
+      <obj_property name="ElementShortName">TX_out</obj_property>
+      <obj_property name="ObjectShortName">TX_out</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

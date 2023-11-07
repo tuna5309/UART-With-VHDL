@@ -1,0 +1,30 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto a6d18f40fd47470f97b4ec0420547895 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot test_top_behav xil_defaultlib.test_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'clk_freq' [C:/Users/Neta/Desktop/pro/UART_TOP/UART_TOP.srcs/sim_1/imports/Desktop/UART PRO/test_top.vhd:33]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.std_logic_unsigned
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture tuna of entity xil_defaultlib.baudsel [baudsel_default]
+Compiling architecture uartx of entity xil_defaultlib.uart_tx [uart_tx_default]
+Compiling architecture uartrx of entity xil_defaultlib.uart_rx [uart_rx_default]
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling architecture rtl of entity xil_defaultlib.uart_top [uart_top_default]
+Compiling architecture behavioral of entity xil_defaultlib.test_top
+Built simulation snapshot test_top_behav
